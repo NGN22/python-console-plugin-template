@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+
+# Build
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
