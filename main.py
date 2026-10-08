@@ -30,6 +30,9 @@ def main():
             print("Opción no válida, fuera de rango")
             continue
 
+        selected_app = loader.apps[indice]
+        selected_app.run()
+
 
 if __name__ == "__main__":
     main()
